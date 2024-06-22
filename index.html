@@ -4,112 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Work Sample Portfolio</title>
+    <title>Chris Muto's Portfolio</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>
-        Chris Muto
+            Chris Muto Portfolio
         </h1>
         <nav>
             <ul class="header-ul">
-                 <li class="header-li">
-                    <a href="#about-me" class="header-a">About Me</a>
-                </li>
                 <li class="header-li">
                     <a href="#worknav" class="header-a">Work</a>
                 </li>
                 <li class="header-li">
-                    <a href="#contact" class="header-a">Contact</a>
+                    <a href="./Resume.pdf" class="header-a">Technologies</a>
                 </li>
                 <li class="header-li">
-                    <a href="./Resume.pdf" class="header-a">Resume</a>
-                </li>
+                   <a href="#about-me" class="header-a">About Me</a>
+               </li>
             </ul>
         </nav>
     </header>
     
-    <div class="backsplash">
-        <h2 class="splash-header">
-            Interactive Portfolio
-        </h2>
-    </div>
-
-    <section id="about-me">
-        <aside>
-            <h2 class="aboutme-h2">
-                About Me
+    <main>
+        <div class="intro">
+            <h2>
+                Hello, I'm Chris,
             </h2>
-        </aside>
-        <section class="aboutme-section">
-            I am a former biotech researcher and property manager looking to enter the field of web development. I live in Clairemont with a very large dog that whines whenever I ignore him to work on coding. I enjoy challenges that let me grow as a person and learn new skills. I'm eager to develop the skills that will help me excel in full stack web development.
+            <p style="font-size: 1.5rem;">and I'm a frontend developer</p>
+            <br>
+            <p>
+                Web and mobile developer looking to bring my years of experience to new projects
+            </p>
+            <button><a href="./Resume.pdf">Download CV</a></button>
+        </div>
+        <section class="work-samples">
+            <div class="sample">
+                <a href="https://github.com/chrismuto/Recipe-roulette" target="_blank"><img src="assets/images/recipe-roulette.png" class="sample-image" /></a>
+                <h3>Recipe Roulette</h3>
+                <p>Random recipe caller with video guides</p>
+                <p>HTML, CSS, JS</p>
+                <div class="sample-buttons">
+                    <button class="live-demo">
+                        Live Demo
+                    </button>
+                    <button class="github-repo">
+                        Github Repo
+                    </button>
+                </div>
+            </div>
+            <div class="sample">
+                <a href="https://github.com/chrismuto/Help-for-Hire" target="_blank"><img src="assets/images/help-for-hire.png" class="sample-image" /></a>
+                <h3>Help for Hire</h3>
+                <p>Local job board with user accounts and a database</p>
+                <p>HTML, CSS, Handlebars, JS, SQL</p>
+                <div class="sample-buttons">
+                    <button class="live-demo">
+                        Live Demo
+                    </button>
+                    <button class="github-repo">
+                        Github Repo
+                    </button>
+                </div>
+            </div>
         </section>
-    </section>
-    <main id="work">
-        <aside>
-            <h2 class="work-h2">
-                Work
-            </h2>
-        </aside>
-        <nav id="worknav" class="work-section">
-            <a class="ws1" href="https://protected-taiga-32909.herokuapp.com/" target=_blank>
-                <div  id="helpForHire">
-                        <p class="wsp">
-                            Help for Hire
-                        </p>
-                    </div>
-                </a>
-                <a class="ws2" href="https://chrismuto.github.io/project-01/" target=_blank>
-                <div" id="recipeRoulette">
-                    <p class="wsp">
-                        Recipe Roulette
-                    </p>
-                </div>
-            </a>
-            <a class="ws3" href="https://chrismuto.github.io/weatherapp/" target=_blank>
-                <div id="weatherapp">
-                    <p class="wsp">
-                        Weather Forecast
-                    </p>
-                </div>
-            </a>
-            <a class="ws4" href="https://chrismuto.github.io/work-day-scheduler/" target=_blank>
-                <div id="workScheduler">
-                    <p class="wsp">
-                        Workday Planner
-                    </p>
-                </div>
-            </a>
-                <a class="ws5" href="https://github.com/chrismuto/commerce-backend" target=_blank>
-                <div>
-                    <p class="wsp">
-                        E-commerce platform
-                    </p>
-                </div>
-            </a>
-        </nav>
     </main>
-    <footer id="contact">
-        <aside>
-            <h2 class="contactme-h2">
-                Contact Me
-            </h2>
-        </aside>
-        <section class="contactme-section">
-            <ul class="footer-ul">
+
+    <footer>
+        <h2>
+            Contact Me
+        </h2>
+        <section>
+            <ul class="contact-info">
                 <li>
-                    <a href="mailto: chrismuto@gmail.com">Chrismuto@gmail.com</a>
+                    <a href="mailto: chrismuto@gmail.com"><img src="assets/images/email-icon.jpg" class="logo"></a>
                 </li>
                 <li>
-                    <a href="tel:+14075796676">407.579.6676</a>
+                    <a href="https://github.com/chrismuto"><img src="assets/images/github-logo.png" class="logo"></a>
                 </li>
                 <li>
-                    <a href="https://github.com/chrismuto">Github</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/chris-muto-8453469/">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/chris-muto/" target="_blank" class="header-a"><img src="assets/images/linkedin-icon.png" class="logo"></a>
                 </li>
             </ul>
         </section>
